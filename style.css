@@ -381,6 +381,8 @@ height: 50px;
     display: flex;
     gap: 20px;
     align-items: center;
+    margin-left: 200px;
+    margin-bottom: 20px;
 }
 .footer-title h3{
     color: #FFF;
@@ -392,15 +394,26 @@ height: 50px;
 
 .footer-li{
     display: flex;
-   gap: 50px;
-   margin: 20px 0;
+    gap: 30px;
+ 
+  
 }
 .footer-li li{
     list-style: none;
 }
+.footer-li-2{
+    display: flex;
+    gap: 30px;
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px
+}
+.footer-li-2 li{
+    list-style: none;
+}
 .footer-img{
     display: flex;
-gap: 30px;
+    gap: 30px;
+    margin: 20px 40px;
 }
 .footer-img img{
     width: 50px;
@@ -409,7 +422,15 @@ gap: 30px;
 .footer-small{
 color: rgba(255, 255, 255, 0.60);
 font-size: 16px;
+
+
+
 }
+.footer-small p{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
 /* ..........................media query............................ */
 
 
@@ -544,7 +565,7 @@ height: 30px;
     width: 100%;
 }
 .footer-content{
-    width: 50%;
+    width: 80%;
    margin:0 auto;
 }
 .footer-li,
@@ -552,18 +573,22 @@ height: 30px;
 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    align-items: center;
 }
 .footer-li {
 display: grid;
 grid-template-columns: repeat(2,1fr);
 justify-content: space-around;
 }
-
+.footer-li li{
+    font-size: 10px;
+}
 
 .footer-title{
-    display: flex;
-    gap: 20px;
-    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    
+   
 }
 .footer-title p{
 
@@ -578,23 +603,51 @@ justify-content: space-around;
 }
 
 .footer-li{
-     gap: 5px;
-     font-size: 10px;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ margin: 0 auto;
+ text-align: center;
+ padding-top: 20px;
+ row-gap: 10px;
    
 }
 
 .footer-img{
     gap: 5px;
 }
+.footer-img {
+    
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin: 30px 10px;
+   padding-left: 40px;
+   line-height: 15px;
+}
 .footer-img img{
-    width: 35px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 .footer-small{
     font-size: 10px;
-}
-.footer-small li{
+ 
+    color: rgba(255, 255, 255, 0.60);
     font-size: 10px;
+  padding-left: 200px;
+    
+}
+.footer-small p{
+    margin-left: -20px;
+}
+.footer-li-2 {
+  display: grid; 
+  grid-template-columns: repeat(2,1fr);
+  padding-left: 30px;
+  row-gap: 10px;
+  font-size: 10px;
 }
 
  }
+ /* ...............media quary for tab.............. */
